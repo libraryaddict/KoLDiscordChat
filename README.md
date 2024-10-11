@@ -2,7 +2,7 @@
 
 Install this as a KoLMafia script with 
 ```
-git checkout libraryaddict/DiscordChat release
+git checkout libraryaddict/KoLDiscordChat release
 ```
 
 Install this as a javascript library by running 
