@@ -1,7 +1,15 @@
 # Discord Updates from KoL
 
-Install this as a KoLMafia script with `git checkout libraryaddict/DiscordChat release`
-Install this as a javascript library by running `npm install kol-discord-api` to your built script.
+Install this as a KoLMafia script with 
+```
+git checkout libraryaddict/DiscordChat release
+```
+
+Install this as a javascript library by running 
+```
+npm install kol-discord-api
+```
+to your built script.
 
 This is easy to use as a library, but you can also use this via commandline with the script, or even forgo this entirely and send the message directly to `DiscordChat` via whisper/kmail.
 
