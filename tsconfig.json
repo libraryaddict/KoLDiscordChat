@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "rootDir": "src",
+    "outDir": "./built",
+    "experimentalDecorators": true,
+    "allowUnreachableCode": true,
+    "allowUnusedLabels": false,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["esnext"],
+    "module": "commonjs",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": false,
+    "pretty": true,
+    "strict": false,
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "isolatedModules": true
+  },
+  "include": ["src/**/*.ts"]
+}

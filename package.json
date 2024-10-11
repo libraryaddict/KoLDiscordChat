@@ -1,0 +1,39 @@
+{
+  "name": "kol-discord-api",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
+  ],
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build:types && npm run build:js",
+    "build:types": "tsc",
+    "prepublish": "tsc",
+    "build:js": "webpack",
+    "watch": "webpack --watch --progress"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-proposal-decorators": "^7.14.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.12.7",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-polyfill-corejs3": "^0.2.5",
+    "typescript": "^4.0.3",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^4.2.0",
+    "remove-files-webpack-plugin": "^1.5.0",
+    "ts-loader": "^9.4.1",
+    "typescript-declaration-webpack-plugin": "^0.2.2"
+  },
+  "dependencies": {
+    "kolmafia": "5.27000.0"
+  }
+}
