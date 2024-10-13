@@ -51,6 +51,11 @@ Or running the script `discord add <name> dm`
 
 You will be sent a code, you then send the discord bot `Chat Relay#8293` the code. It's now set up!
 
+To access the bot via DMs, you'll need to join the discord server to get that started. You can leave the server afterwards, no need to stick around!
+This is because discord doesn't give an easy way to send DMs to the bot without first sharing a server.
+
+Invitation: `https://discord.gg/wz53wvZKkV`
+
 # Getting Started - Webhooks
 
 First you need a discord channel you will be sending these messages in.
