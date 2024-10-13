@@ -141,7 +141,7 @@ var DiscordAdd = /*#__PURE__*/function () {function DiscordAdd() {_classCallChec
 
       if (code != null) {
         (0,external_kolmafia_namespaceObject.printHtml)("<font color='green'>Success! Send the code <font color='purple'>".concat(
-          code[1], "</font> to the Discord Bot to finish this process. Run 'update' if you changed your mind to bring the script back in sync</font>")
+          code[1], "</font> to the Discord Bot to finish this process. Run 'update' if you changed your mind to bring the script back in sync. You'll probably need to share a discord server, join via https://discord.gg/wz53wvZKkV - you can leave afterwards!</font>")
         );
       } else {
         (0,external_kolmafia_namespaceObject.print)(result, "green");
