@@ -93,7 +93,7 @@ export class DiscordAdd implements DiscordCommand {
 
     if (code != null) {
       printHtml(
-        `<font color='green'>Success! Send the code <font color='purple'>${code[1]}</font> to the Discord Bot to finish this process. Run 'update' if you changed your mind to bring the script back in sync</font>`
+        `<font color='green'>Success! Send the code <font color='purple'>${code[1]}</font> to the Discord Bot to finish this process. Run 'update' if you changed your mind to bring the script back in sync. You'll probably need to share a discord server, join via https://discord.gg/wz53wvZKkV - you can leave afterwards!</font>`
       );
     } else {
       print(result, "green");
