@@ -259,7 +259,7 @@ var DiscordRename = /*#__PURE__*/function () {function DiscordRename() {discordR
     } }, { key: "getName", value:
 
     function getName() {
-      return "webhook";
+      return "rename";
     } }, { key: "shouldLinkExist", value:
 
     function shouldLinkExist() {
