@@ -6,12 +6,12 @@ export class DiscordRename implements DiscordCommand {
   getHelp(): string[] {
     return [
       "Syntax: rename <name> <new name>",
-      "Renames an existing link to a new name",
+      "Renames an existing link to a new name"
     ];
   }
 
   getName(): string {
-    return "webhook";
+    return "rename";
   }
 
   shouldLinkExist(): "exist" | "unused" | null {

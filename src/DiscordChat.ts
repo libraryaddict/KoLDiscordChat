@@ -7,7 +7,7 @@ import {
   print,
   printHtml,
   visitUrl,
-  waitq,
+  waitq
 } from "kolmafia";
 import { DiscordCommand } from "./commands/iCommand";
 import { DiscordAdd } from "./commands/discordAdd";
@@ -54,7 +54,7 @@ export class DiscordChat {
       new DiscordUpdate(),
       new DiscordWebhook(),
       new DiscordAvatar(),
-      new DiscordDisplayname(),
+      new DiscordDisplayname()
     ];
   }
 
